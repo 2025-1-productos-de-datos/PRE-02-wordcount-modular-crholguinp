@@ -1,5 +1,6 @@
 # obtain a list of files in the input directory
 import os
+import sys
 
 from ._internals.count_words import count_words
 from ._internals.preprocess_lines import preprocess_lines
