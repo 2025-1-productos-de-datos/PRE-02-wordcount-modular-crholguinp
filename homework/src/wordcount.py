@@ -20,7 +20,7 @@ def main():
     all_lines = preprocess_lines(all_lines)
     words = split_into_words(all_lines)
     counter = count_words(words)
-    write_word_counts(counter)
+    write_word_counts(counter, output_folder)
 
 if __name__ == "__main__":
     main()
